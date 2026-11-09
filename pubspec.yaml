@@ -1,0 +1,31 @@
+name: payment_app
+description: Aplicación de pagos con persistencia local y sincronización offline.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.1.6
+  equatable: 2.0.5
+  dartz: 0.10.1
+  get_it: 7.7.0
+  sqflite: 2.3.3
+  path: 1.9.0
+  connectivity_plus: 6.0.5
+  http: 1.2.2
+  uuid: 4.4.2
+  intl: 0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: 9.1.7
+  mocktail: 1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
